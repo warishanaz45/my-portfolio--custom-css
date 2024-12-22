@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/02%20QUARTER%2002%20PROJECT/Next-js%20project/my-portfolio/src/app/page.tsx"],"sourcesContent":["import Hero from \"@/components/Hero\";\nimport Image from \"next/image\";\n\nexport default function Home () {\n  return(\n    <main>\n    <Hero/>\n    </main>\n  )\n}"],"names":[],"mappings":";;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;kBACD,cAAA,8OAAC,0HAAA,CAAA,UAAI;;;;;;;;;;AAGT"}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

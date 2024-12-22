@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/styles/hero.css"],"sourcesContent":["/* hero.css */\r\n.hero-container {\r\n    min-height: 100vh;\r\n    background: no-repeat url('/profile-picture.jpeg');\r\n    background-size: 35%;\r\n    background-position: left 100px top 100px;\r\n  }\r\n  \r\n  .hero-content {\r\n    display: grid;\r\n    height: calc(100vh - 60px);\r\n    grid-template-columns: 1fr 1fr;\r\n  }\r\n  \r\n  .hero-text {\r\n    line-height: 1.25;\r\n    font-weight: bold;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    color: #ffffff;\r\n    font-size: 6.25rem;\r\n  }\r\n  \r\n  .hero-msin p {\r\n    margin: 0;\r\n  }\r\n  \r\n  /* Responsive adjustments */\r\n  @media (max-width: 1024px) {\r\n    .hero-container {\r\n      background-size: 50%; \r\n      background-position: center; \r\n    }\r\n  \r\n    .hero-content {\r\n      grid-template-columns: 1fr; \r\n      text-align: left;\r\n    }\r\n  \r\n    .hero-text {\r\n      font-size: 3rem; \r\n    }\r\n  }\r\n  \r\n  @media (min-width: 1024px) {\r\n    .hero-content {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n  }"],"names":[],"mappings":"AACA;;;;;;;AAOE;;;;;;AAMA;;;;;;;;;;AAUA;;;;AAKA;EACE;;;;;EAKA;;;;;EAKA;;;;;AAKF;EACE"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

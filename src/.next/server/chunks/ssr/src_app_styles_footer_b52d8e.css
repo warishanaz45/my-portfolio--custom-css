@@ -1,0 +1,25 @@
+/* [project]/src/app/styles/footer.css [app-client] (css) */
+.footer {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #08e95e;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media (width <= 768px) {
+  .footer {
+    padding: 1rem;
+    font-size: .875rem;
+  }
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding: 1.5rem;
+    font-size: 1.125re;
+  }
+}
+
+/*# sourceMappingURL=src_app_styles_footer_b52d8e.css.map*/

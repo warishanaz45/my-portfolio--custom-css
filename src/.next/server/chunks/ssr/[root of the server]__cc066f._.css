@@ -1,0 +1,57 @@
+/* [project]/src/app/styles/footer.css [app-client] (css) */
+.footer {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #08e95e;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media (width <= 768px) {
+  .footer {
+    padding: 1rem;
+    font-size: .875rem;
+  }
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding: 1.5rem;
+    font-size: 1.125re;
+  }
+}
+
+
+/* [project]/src/app/globals.css [app-client] (css) */
+body {
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+
+/* [next]/internal/font/google/inter_59dee874.module.css [app-client] (css) */
+@font-face {
+  font-family: Inter Fallback;
+  src: local(Arial);
+  ascent-override: 90.49%;
+  descent-override: 22.56%;
+  line-gap-override: 0.0%;
+  size-adjust: 107.06%;
+}
+
+.inter_59dee874-module__9CtR0q__className {
+  font-family: Inter, Inter Fallback;
+  font-style: normal;
+}
+
+
+/*# sourceMappingURL=%5Broot%20of%20the%20server%5D__cc066f._.css.map*/

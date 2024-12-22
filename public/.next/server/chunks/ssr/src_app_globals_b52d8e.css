@@ -1,0 +1,15 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+body {
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+/*# sourceMappingURL=src_app_globals_b52d8e.css.map*/

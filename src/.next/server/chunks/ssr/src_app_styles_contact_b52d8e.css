@@ -1,0 +1,94 @@
+/* [project]/src/app/styles/contact.css [app-client] (css) */
+.contact-container {
+  padding-top: 8rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (width >= 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contact-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.contact-text {
+  color: #4b5563;
+  font-size: 1.125rem;
+  padding-top: .5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.contact-flex {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.contact-flex a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-space {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.input-field, .textarea-field {
+  background-color: #0000;
+  border: 1px solid #333;
+  padding: .5rem;
+  border-radius: none;
+  border-color: #08e95e;
+}
+
+.textarea-field {
+  resize: vertical;
+  height: auto;
+  min-height: 150px;
+}
+
+.button {
+  width: fit-content;
+  background-color: #08e95e;
+  color: #fff;
+  padding: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: none;
+  transition: background-color .3s;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/*# sourceMappingURL=src_app_styles_contact_b52d8e.css.map*/

@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/02%20QUARTER%2002%20PROJECT/Next-js%20project/my-portfolio%20-custom%20css/src/app/styles/footer.css"],"sourcesContent":["/* styles/footer.css */\r\n.footer {\r\n    margin-top: 4rem;\r\n    padding: 1.5rem;\r\n    text-align: center;\r\n    background-color: #08E95E; \r\n    color: #fff;\r\n    font-size: 1rem;\r\n  }\r\n  \r\n  /* Responsive styles */\r\n  @media (max-width: 768px) {\r\n    .footer {\r\n      padding: 1rem; \r\n      font-size: 0.875rem; \r\n    }\r\n  }\r\n  \r\n  @media (min-width: 768px) {\r\n    .footer {\r\n      padding: 1.5rem; \r\n      font-size: 1.125re\r\n    }\r\n  }"],"names":[],"mappings":"AACA;;;;;;;;;AAUE;EACE;;;;;;AAMF;EACE"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file://D%3A/02%20QUARTER%2002%20PROJECT/Next-js%20project/my-portfolio%20-custom%20css/src/app/globals.css"],"sourcesContent":["body {\n  color: #fff;\n  background-color: #000;\n  margin: 0;\n}\n\n*{\n  box-sizing: border-box;\n  border-width: 0;\n  border-style: solid;\n  border-color: #e5e7eb;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["turbopack://[next]/internal/font/google/inter_59dee874.module.css"],"sourcesContent":["@font-face {\n    font-family: 'Inter Fallback';\n    src: local(\"Arial\");\n    ascent-override: 90.49%;\ndescent-override: 22.56%;\nline-gap-override: 0.00%;\nsize-adjust: 107.06%;\n\n}\n.className {\n    font-family: 'Inter', 'Inter Fallback';\n    font-style: normal;\n\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA","ignoreList":[0]}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
